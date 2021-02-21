@@ -1,0 +1,87 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleMedia.css">
+        <body>
+           
+            <header>
+                <span >Shop & User Management App</span>
+
+           </header>
+        
+           <nav>
+               <a href="#"><i class="fas fa-bars"></i></a>
+               <a href="table.html" id="a1"><i class="fas fa-user"></i>Users </a>
+               <a href="noTable.html" id="a2"><i class="fas fa-shopping-cart"></i>Buy</a>
+           </nav>
+           <table> 
+                <tr>
+                    <th>Product</th>
+                    <th>Code</th>
+                    <th>Available</th>
+                    <th>Price</th>
+                    <th>5 star rating</th>
+                </tr>
+                <tbody id = "tableBody">
+                 
+             <!--
+                </tr>
+                <tr>
+                    <td>Garden Cart</td>
+                    <td>gdn 0023</td>
+                     <td>March 18, 2019</td>
+                    <td>$32,99</td>
+                    <td>5</td>
+                    <td> <button><i class="fas fa-pen"></i><a href="#">Details</a></button>
+                        <button><i class="fas fa-trash-alt"></i><a href="#">Delete</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hammer</td>
+                    <td>tbx 0048</td>
+                    <td>March 19, 2019</td>
+                    <td>$8,90</td>
+                    <td>3</td>
+                    <td>
+                        <button><i class="fas fa-pen"></i><a href="#">Details</a></button>
+                        <button><i class="fas fa-trash-alt"></i><a href="#">Delete</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Saw</td>
+                    <td>tbx 0022</td>
+                     <td>March 19, 2019</td>
+                    <td>$11,55</td>
+                    <td>3</td>
+                    <td>
+                        <button><i class="fas fa-pen"></i><a href="#">Details</a></button>
+                        <button><i class="fas fa-trash-alt"></i><a href="#">Delete</a></button>
+                    </td>
+                </tr>
+              -->  
+            </tbody>
+            </table>
+       
+        
+            <script src="./index.js"></script>
+            <script>
+                let menu = document.querySelector("nav > a");
+                let table = document.querySelector("table");
+                let a1 = document.getElementById("a1");
+                let a2 = document.getElementById("a2");
+                menu.addEventListener('click', function(){
+                    a1.style.visibility = "visible";
+                    a2.style.visibility = "visible";
+                   
+                }); 
+                
+             
+            
+            </script>
+          
+        </body>
+
+    </head>
+</html>
